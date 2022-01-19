@@ -1,8 +1,12 @@
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Evandro Zanatta</title>
-<meta name="description" content="Evandro Zanatta">
+{{ if .Page.Title }}
+<title>{{ .Title }} - Evandro Zanatta</title>
+{{ else }}
+<title>Site pessoal de Evandro Zanatta</title>
+{{ end }}
+<meta name="description" content="{{ .Description }}">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55939778-1"></script>

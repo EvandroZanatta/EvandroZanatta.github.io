@@ -2,14 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.evandrozanatta.com.br/categories/</loc>
+    <loc>https://www.evandrozanatta.com.br/</loc>
+    <lastmod>2022-01-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.evandrozanatta.com.br/micro-saas/o-que-e-micro-saas/</loc>
+    <lastmod>2022-01-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.evandrozanatta.com.br/posts/</loc>
+    <lastmod>2022-01-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.evandrozanatta.com.br/</loc>
+  </url><url>
+    <loc>https://www.evandrozanatta.com.br/categories/</loc>
   </url><url>
     <loc>https://www.evandrozanatta.com.br/pages/</loc>
   </url><url>
     <loc>https://www.evandrozanatta.com.br/tags/</loc>
-  </url><url>
-    <loc>https://www.evandrozanatta.com.br/</loc>
   </url>
 </urlset>

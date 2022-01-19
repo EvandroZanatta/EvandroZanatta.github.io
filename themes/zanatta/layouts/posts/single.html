@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    {{ partial "head.html" . }}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scope+One&display=swap" rel="stylesheet">
+    <meta property="og:image" content="{{ .Params.socialimage }}">
+    <!-- <meta property="article:published_time" content="2020-11-17T13:53:01+00:00"> -->
+</head>
+
+<body>
+    {{ partial "header.html" . }}
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-6">
+                <article class="article">
+                    <h1>{{ .Page.Title }}</h1>
+                    <p class="mb-0">Escrito por <b>Evandro Zanatta</b> em <b>18/01/2022</b></p>
+                    <hr>
+                    {{ .Content }}
+                    <hr>
+                    <div class="text-center">
+                        <a href="/" class="small">Ir para a página principal</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    {{ partial "footer.html" . }}
+</body>
+<style>
+    .article blockquote {
+        border-left: 4px solid #ccc;
+        padding: 10px;
+        padding-left: 15px;
+        background-color: #f3f3f3;
+    }
+
+    .article blockquote p{
+        margin-bottom: 0;
+    }
+
+    .article p {
+        font-family: 'Scope One', serif;
+        margin-bottom: 1.5rem;
+        color: #444;
+        line-height: 1.6;
+    }
+
+    body {
+        font-size: 20px;
+    }
+
+    .article h1,
+    .article h2,
+    .article h3 {
+        font-weight: bold;
+    }
+</style>
+
+</html>

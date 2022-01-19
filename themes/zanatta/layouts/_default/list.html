@@ -1,9 +1,19 @@
-{{ define "main" }}
+<!-- https://harrycresswell.com/writing/listing-page-content-in-hugo/ -->
+  
   <h1>Posts</h1>
   {{ range .Pages }}
     <article>
       <h2>{{ .Title }}</h2>
-      {{ .Content }}
+      <!-- {{ .Content }} -->
     </article>
   {{ end }}
-{{ end }}
+
+
+ccc
+
+
+{{ range  .Site.RegularPages }}
+      <article>
+        <h2>{{ .Title }}</h2>
+      </article>
+    {{ end }}
